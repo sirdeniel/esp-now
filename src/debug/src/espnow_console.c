@@ -280,7 +280,7 @@ esp_err_t espnow_console_init(const espnow_console_config_t *config)
     fcntl(fileno(stdout), F_SETFL, 0);
     fcntl(fileno(stdin), F_SETFL, 0);
 #else
-    #error "Unknown/unsupported console type"
+//    #error "Unknown/unsupported console type"
 #endif
 
     }
